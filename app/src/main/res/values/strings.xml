@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Work</string>
+    <string name="title_activity_work">WorkActivity</string>
+    <string name="work_fio_hint">Enter full name</string>
+    <string name="work_number_hint">Enter the employee number</string>
+    <string name="work_hour_hint">Enter the number of hours worked per month</string>
+    <string name="work_rate_hint">Enter the hourly rate</string>
+
+    <string name="new_worker">New worker</string>
+    <string name="delete_worker">Delete worker</string>
+
+    <string name="empty_list">Empty list</string>
+    <string name="calculate_wage">Calculate wage</string>
+    <string name="wage">Wage:</string>
+</resources>

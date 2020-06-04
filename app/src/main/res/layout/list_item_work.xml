@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/list_item_work_fio_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="Full name"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/list_item_work_number_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_work_fio_text_view"
+        android:padding="4dp"
+        android:text="Number"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/list_item_work_hour_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_work_number_text_view"
+        android:padding="4dp"
+        android:text="Hours of work"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/list_item_work_rate_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_work_hour_text_view"
+        android:padding="4dp"
+        android:text="Rate"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
